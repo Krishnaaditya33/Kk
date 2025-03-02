@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step required
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +19,11 @@
     "@google/generative-ai": "^0.21.0",
     "express": "^4.21.1",
     "googleapis": "^144.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@react-three/fiber": "^8.0.0",
+    "@react-three/drei": "^8.0.0",
+    "framer-motion": "^10.16.0"
     "node-schedule": "^2.1.1",
     "punycode": "^2.3.1"
   }
